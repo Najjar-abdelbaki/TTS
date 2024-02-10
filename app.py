@@ -28,7 +28,7 @@ def convert():
 @app.route('/download',methods=['POST'])
 def download():
     if request.method=='POST':
-        return send_file('./media/output.mp3',as_attachment=True)
+        return send_file('./static/temp.mp3',as_attachment=True)
 
 if __name__ == "__main__":
     app.run(debug=True)

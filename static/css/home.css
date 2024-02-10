@@ -36,3 +36,17 @@ body{
 #sb:active{
     font-size: 21px;
 }
+/* Footer */
+			#footer {
+			  bottom: 0;
+			  color: rgba(255, 255, 255, 0.5);
+			  position: fixed;
+			  width: 100%;
+			  background-color: rgba(0, 0, 0, 0.8);
+			  padding: 5px;
+			  text-align: center;
+			}
+			#footer a {
+			  color: rgba(255, 255, 255, 0.5);
+			  text-decoration: none;
+			}
