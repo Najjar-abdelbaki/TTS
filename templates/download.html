@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Download</title>
+        <link href="static/css/download.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="main">
+            <h1>Successfully Converted</h1>
+            <img src="static/images/audio.jpg" alt="audio"/>
+            <p>You can download your audio file<br/>by below download button.</p>
+            <form action="/download" method="post">
+                <input type="submit" value="Download" id="sb"/>
+
+            </form>
+            <form>
+                <button type="button" onclick="playAudio()" id="play">Play</button>
+                <audio id="myAudio">
+                    <source src="{{ audio_file }}">
+                </audio>
+            </form>
+            <a href="/">Home</a>
+        </div>
+        <script>
+            function playAudio() {
+                var audio = document.getElementById('myAudio');
+                audio.play();
+            }
+        </script>
+    </body>
+</html>

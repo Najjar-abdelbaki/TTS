@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    width: 60%;
+    background-color: rgb(15,15,82);
+    color: white;
+    text-align: center;
+}
+#main p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+#box{
+    height: 200px;
+    width: 80%;
+    font-size: 18px;
+}
+#sb{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+}
+#sb:active{
+    font-size: 21px;
+}
